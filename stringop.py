@@ -20,8 +20,6 @@ e
 neet
 >>> 
 >>> #converting upper case and lowercase
->>> d='
-SyntaxError: EOL while scanning string literal
 >>> d='colosseum'
 >>> print(d.upper())
 COLOSSEUM
@@ -31,28 +29,15 @@ colosseum
 >>> #string concat
 >>> m='yamaha'
 >>> n='r7'
->>> print(a+b)
-Traceback (most recent call last):
-  File "<pyshell#23>", line 1, in <module>
-    print(a+b)
-NameError: name 'a' is not defined
 >>> print(m+n)
 yamahar7
 >>> 
 >>> #casefold() use
 >>> b='The BEst SUPER biKe'
->>> b=text.casefold()
-Traceback (most recent call last):
-  File "<pyshell#28>", line 1, in <module>
-    b=text.casefold()
-NameError: name 'text' is not defined
->>> c=b.textfold()
-Traceback (most recent call last):
-  File "<pyshell#29>", line 1, in <module>
-    c=b.textfold()
-AttributeError: 'str' object has no attribute 'textfold'
 >>> c=b.casefold()
->>> 
+>>> print(c)
+>>>the best supr bike
+#built in functions
 >>> g="SHE SELLS SEA SHELLS ON THE SEA SHORE"
 >>> print(g.capitalize())
 She sells sea shells on the sea shore
